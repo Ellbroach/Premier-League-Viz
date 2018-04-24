@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  background: rgb(248, 233, 174);
+  margin: auto;
+  width: 90%;
+  border: 12px solid rgb(56, 3, 3);
+  padding: 10px;
+}
+
+.App-logo {
+  height: 120px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 220px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+.home-match-container {
+  float: left;
+  width: 15%;
+  border: 3px solid black;
+  background:  rgb(255, 187, 147);
+}
+
+.match {
+  border: 2px solid black;
+}
+
+
+.player-list {
+  background: cornsilk;
+  margin-left: 35%;
+  width: 30%;
+  border: 3px solid black;
+}
+
+.away-match-container {
+  float: right;
+  width: 15%;
+  border: 3px solid black;
+  background: rgb(255, 187, 147);
+}
+
+.Team-Select {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.selector {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  border: 3px solid black;
+  padding-bottom: 20px;
+  background: rgb(88, 204, 250);
+  margin-bottom: 20px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+.eplTable {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50%;
+    border: 6px solid green;
+    padding: 10px;
+
+}
+
+.dribbleContainer {
+  display: inline-block;
+}
+
+.homeDribbles {
+  float: left;
+}
+
+.awayDribbles {
+  float: right;
+}
+
+.dribbleCompare {
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.mainAerials {
+  display: inline-block;
+}
+
+.homeAerials {
+  float: left;
+}
+
+.awayAerials {
+  float: right;
+}
+
+.compareAerials {
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
